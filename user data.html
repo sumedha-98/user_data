@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User data form</title>
+    <link rel="stylesheet" type="text/css" href="user%20data.css">
+</head>
+<body>
+    <h1><center>User data form</center></h1>
+    <h2><center>* denotes mandatory field </center></h2>
+    <div>
+    <form method="POST" action="user%20data.php">
+            <input type="text" name="Firstname" placeholder="*Enter first name" required>
+            <input type="text" name="Lastname" placeholder="Enter last name">
+            <br>
+            <br>
+            <input type="number" name="ID" placeholder="*Enter your ID" required>
+            <input type="tel" name="Mobilenumber" placeholder="*Enter mobile number" required
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" >
+            <br>
+            <br>
+            <input type="email" name="Email" placeholder="*Enter your email ID" required>
+            <input type="number" name="Age" placeholder="Enter your age" max="100">
+            <br>
+            <br>
+            <input type="submit" name="submit" value="Submit" id="sub">
+            <input type="reset" name="reset" value="Clear Data" id="sub">
+
+    </form>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+div {
+    background-color: beige;
+}
+form {
+    text-align: center;
+    color: brown;
+}
+h1{
+    color: darkred;
+}
+h2{
+    color: black;
+}
+body {
+    background-image: url("./assests/robback.jpg");
+}
+#sub{
+    color: brown;
+}
